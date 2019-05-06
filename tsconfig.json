@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./node_modules",
+    "types": [
+      "node",
+      "chai",
+      "assert",
+      "@wdio/sync",
+      "@wdio/mocha-framework"
+    ]
+  },
+  "include": [
+    "./test/**/*.js"
+  ]
+}
